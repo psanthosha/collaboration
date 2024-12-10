@@ -1,6 +1,14 @@
 #include<stdio.h>
 int main()
 {
-   printf("WELCOME TO GIT WORLD");
-   printf("WELCOME TO BIET"
+  int a,b,c;
+  printf("Enter the value of a and b");
+  scanf("%d %d",&a,&b);
+
+  printf("Value of a and b before swapping %d %d",a,b);
+  c=a;
+  a=b;
+  b=c;
+  printf("Value of a and b after swapping %d %d",a,b);
+   
 }
